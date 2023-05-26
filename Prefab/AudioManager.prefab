@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4294253859891990275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4294253859891990273}
+  - component: {fileID: 4294253859891990274}
+  - component: {fileID: 8283529494052909366}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4294253859891990273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294253859891990275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 455.85504, y: 886.63837, z: 10.1933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4294253859891990274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294253859891990275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a92053bfe9a0f8242a3c741ac4a4e9d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: blueBtn
+    clip: {fileID: 8300000, guid: 919d468dc3d430a4d938a44478b6219d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: languageBtn
+    clip: {fileID: 8300000, guid: 8bf14558d8dfa4346a0b28307f040a75, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: slider
+    clip: {fileID: 8300000, guid: e7ccdd9bbb7638d41ac84c0997b393df, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bgMusic
+    clip: {fileID: 8300000, guid: 847753e1d4698cd4cb2ee37479732ecf, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bubble1
+    clip: {fileID: 8300000, guid: d8af276424e472f44940bd5452073ec4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble2
+    clip: {fileID: 8300000, guid: 7633d09702a3cb647810862c42e4b823, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble3
+    clip: {fileID: 8300000, guid: fcc7a3a14ffa74440bfdc86454eb2ad3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: stickAppear
+    clip: {fileID: 8300000, guid: 6970b0c1dc541a24290262237acd9f2f, type: 3}
+    volume: 0.34
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: stickDisappear
+    clip: {fileID: 8300000, guid: 498896d2d458dd94e904ed0ab6f741c4, type: 3}
+    volume: 0.1
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: rewardAD
+    clip: {fileID: 8300000, guid: aa8d822bc7c44ab4184924abe329b38c, type: 3}
+    volume: 0.8
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+  - name: jokerBtn
+    clip: {fileID: 8300000, guid: 49e24151336e118459c6bca4a7850afe, type: 3}
+    volume: 1
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+  - name: onGoingKnife
+    clip: {fileID: 8300000, guid: 0324e660d6889f448aab7b187f77e0f5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: winSound
+    clip: {fileID: 8300000, guid: 9141e8ac8cbd6b543b5f46e12fd75662, type: 3}
+    volume: 0.25
+    pitch: 0.9
+    loop: 0
+    source: {fileID: 0}
+  currentVolume: 0
+--- !u!114 &8283529494052909366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294253859891990275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f364eab918a8014aaa87681f645dbe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ww:
+  - language:
+    - "Ger\xE7ek \xF6d\xFCl bilgidir."
+    - The real reward is knowledge.
+  - language:
+    - "Zihninde kaybediyorsan hayatta kazanamazs\u0131n."
+    - You can not win in life if you are losing in your mind.
+  - language:
+    - "Kazananlar asla yar\u0131m b\u0131rakmazlar. Yar\u0131m b\u0131rakanlar asla
+      kazanamazlar."
+    - Winners never leave unfinished. Those who leave it unfinished can never win.
+  - language:
+    - "Kendini zorla, \xE7\xFCnk\xFC kimse senin i\xE7in bunu yapmayacak."
+    - Push yourself, because no one else is going to do it for you.
+  - language:
+    - "Kendini fikirlerden ve vizyondan konu\u015Fan insanlarla \xE7evir, ba\u015Fka
+      insanlardan konu\u015Fanlarla de\u011Fil."
+    - Surround yourself with people who talk about vision and ideas, not other people.
+  - language:
+    - "Gelece\u011Fini bug\xFCn yapt\u0131klar\u0131n belirler, yar\u0131n yapacaklar\u0131n
+      de\u011Fil."
+    - Your future is created by what you do today, not tomorrow.
+  - language:
+    - "R\xFCyalar\u0131 ger\xE7ekle\u015Ftirmenin en k\u0131sa yolu uyanmakt\u0131r."
+    - The shortest way to make dreams come true is to wake up.
+  - language:
+    - "T\xFCm yumurtalar\u0131n\u0131 ayn\u0131 sepete koyma."
+    - "Don\u2019t put all your eggs in one basket."
+  - language:
+    - "D\xFCr\xFCstl\xFCk ebediyetin g\xFCne\u015Fidir, her hal\xFCkarda do\u011Far."
+    - Honesty is the sun of infinity.Anyway it rises.
+  - language:
+    - "Ger\xE7e\u011Fi s\xF6yleyip reddedilmek saklay\u0131p kabul edilmekten \xE7ok
+      daha iyidir."
+    - "It\u2019s far better to tell the truth and be rejected, than to hold it back
+      and be accepted."
+  - language:
+    - "Bir soru soran ki\u015Fi be\u015F dakikal\u0131\u011F\u0131na aptald\u0131r,
+      asla sormayan biri ise sonsuza kadar aptald\u0131r."
+    - A person who asks a question is a fool for five minutes; a person who never
+      asks is a fool forever.
+  - language:
+    - "Hayat bisiklet s\xFCrmek gibidir. Dengeni korumak i\xE7in ilerlemeye devam
+      etmelisin."
+    - Life is like riding a bicycle. To keep your balance, you must keep moving.
+  - language:
+    - "Bilgi sana g\xFC\xE7 verir ama karakter sana sayg\u0131 kazand\u0131r\u0131r."
+    - Knowledge gives you strength, but character gives you respect.
+  - language:
+    - "Zenginlik, bir bilgenin k\xF6lesi, bir aptal\u0131n efendisidir."
+    - Wealth is the slave of wise man, the master of a fool.
+  - language:
+    - "Zaman geri kazan\u0131lamayan tek kaynakt\u0131r."
+    - Time is the only resource that cannot be recovered.
+  - language:
+    - "G\xF6zlerini y\u0131ld\u0131zlarda, ayaklar\u0131n\u0131 yerde tut."
+    - Keep your eyes on the stars, and your feet on the ground.
+  - language:
+    - "Her arayan bulamaz ama bulanlar arayanlard\u0131r."
+    - Not every seeker can find, but those who find are the seekers.
+  - language:
+    - "Her zaman vazge\xE7mek i\xE7in \xE7ok erkendir."
+    - "It\u2019s always too early to quit."
+  - language:
+    - "Yava\u015F gitmekten korkma, yerinde durmaktan kork."
+    - Be not afraid of going slowly, be afraid only of standing still.
+  - language:
+    - "Senin i\xE7in \xF6nemliyse bir yolunu, de\u011Filse bir bahanesini bulursun."
+    - "If it is important to you, you will find a way. If not, you\u2019ll find an
+      excuse."
