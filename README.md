@@ -5,4 +5,4 @@ Point Puzzle'ın görselleri düzenlenmiş ve kodları sıfırdan yazılmış ha
 Level üretimin hızlandırılması için özel olarak algoritma ve 2D fizik hesaplanmıştır. Ekranda gözüken her obje dinamik olarak oluşturulmakadır.
 Aralardaki zincir bağlantıları da dinamik şekilde jointler ile birbirine bağlanmıştır
 
-[<img src="https://i.imgur.com/YriqiAt.png" width="50%">](https://www.youtube.com/watch?v=72S1mpKRuck "Now in Android: 55")
+[<img src="https://play-lh.googleusercontent.com/g2V6ElqbNyjh4rT536hOIJbQeXnnqLLTNCj56F4-fmySBDNa_HqRRwzW6tV3_yB6kYM=w2560-h1440-rw" width="30%">](https://www.youtube.com/watch?v=wDHu0CN6344 "Now in Android: 55")
